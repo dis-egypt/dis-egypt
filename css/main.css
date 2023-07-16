@@ -265,6 +265,15 @@ Primary use:
   color: #fff;
 }
 
+.l3-txt1 {
+  font-family: Lato-Bold;
+  font-size: 30px;
+  line-height: 1;
+  color: #fff;
+  text-decoration: underline;
+
+}
+
 
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
