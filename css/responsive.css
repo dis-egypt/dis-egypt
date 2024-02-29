@@ -1,6 +1,11 @@
-@media (max-width: 1300px) {}
-
-@media (max-width: 1120px) {}
+@media (max-width: 1300px) {
+  .imageContainer {
+    width: 520px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -25,7 +30,6 @@
     padding: 45px 0 90px 0;
   }
 
-
   .client_section .box {
     margin: 15px;
   }
@@ -44,8 +48,15 @@
     height: 45px;
   }
 
-  .info_section .info_main_row>div {
+  .info_section .info_main_row > div {
     margin-bottom: 25px;
+  }
+
+  .imageContainer {
+    width: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -62,7 +73,6 @@
   .about_section .detail-box {
     margin-bottom: 45px;
   }
-
 
   .service_section .row .service_col_middle {
     order: 2;
@@ -86,7 +96,7 @@
     margin-bottom: 45px;
   }
 
-  .info_section .row>div {
+  .info_section .row > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,30 +107,64 @@
   .info_section .info_links {
     align-items: center;
   }
-}
+  .navbar-brand span {
+    font-size: 18px;
+  }
+  .container-fluid {
+    background-color: #f2f2f2;
+  }
+  .imageContainer {
+    width: 520px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-@media (max-width: 576px) {
+  .col-md-6 .row {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-
-  .client_section .box {
-    flex-direction: column;
+  .heading_container {
     align-items: center;
   }
 
-  .client_section .box .detail-box {
-    padding: 85px 45px 45px 45px;
-
-  }
-
-  .client_section .box .img-box {
-    margin-right: 0;
-    margin-bottom: -65px;
+  .detail-box p {
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 420px) {
+  .navbar-brand span {
+    font-size: 18px;
+  }
+  .container-fluid {
+    background-color: #f2f2f2;
+  }
+  .imageContainer {
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-@media (max-width: 420px) {}
+  .col-md-6 .row {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .heading_container {
+    align-items: center;
+  }
+
+  .detail-box p {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
 
 @media (max-width: 376px) {
   .slider_section .detail_box h1 {
